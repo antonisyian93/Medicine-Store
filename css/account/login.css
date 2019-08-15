@@ -1,6 +1,7 @@
 body{
   margin-left: 0px;
   margin-right: 0px;
+  background-color: #bbbbbb;
 }
 
 .search {
@@ -42,14 +43,13 @@ body{
 .wrap{
   width: 30%;
   position: absolute;
-  bottom: -220px;
-  top: 50%;
+  bottom: -210px;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .main-body{
-  background-color: white;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -142,7 +142,9 @@ body{
 .footer #copy{
   color: white;
   font-weight: bold;
-  margin-left: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;;
 }
 
 #navbarmenu, .list1 {
@@ -197,7 +199,7 @@ ul li {
 #profile{
   width: 40px;
   height: 40px;
-  margin-left: 80%;
+  margin-left: 87%;
   position: relative;
   margin-top: -300px;
   margin-bottom: 255px;
@@ -206,10 +208,18 @@ ul li {
 #gear{
   width: 40px;
   height: 40px;
-  margin-left: 85%;
+  margin-left: 90%;
   position: relative;
   margin-top: -300px;
   margin-bottom: 300px;
+}
+
+#cart{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 300px;
+  margin-top: -300px;
 }
 
 #lab{
@@ -233,6 +243,8 @@ ul li {
   width: 300px;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-radius: 10px;
+  tab-size: 2px;
 }
 
 #btn{
@@ -242,6 +254,7 @@ ul li {
   height: 40px;
   background-color: white;
   margin-bottom: 5px;
+
   border-radius: 28px;
   font-weight: bold;
   font-family:Arial;
@@ -262,10 +275,10 @@ ul li {
 
 #label{
   color: white;
-  margin-left: 2px;
+  margin-left: 0px;
 }
 
 #reset{
   color: white;
-  margin-left: 60px;
+  margin-left: 10px;
 }

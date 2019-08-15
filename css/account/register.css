@@ -79,34 +79,77 @@ body{
   padding-bottom: 0px;
   padding-top: 60px;
 }
-/*
-.footer .sec1 a{
+
+.register-form{
+  border: 5px solid #c82121;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 18%;
+  background-color: #c82121;
+  box-sizing: content-box;
+  width: 700px;
+  height: 80px;
   color: white;
-  font-size: 20px;
-  display: block;
-  text-decoration: none;
   font-weight: bold;
-  margin-left: 30%;
+  font-size: 16px;
+  border-top-width: -10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10%;
 }
 
-.footer .sec1 a:hover{
-  color: #9DBFAF;
-  width: 200px;
+.sselect{
+  margin-left: 147px;
 }
 
-.footer .sec2 a{
+.texta{
+  width: 400px;
+  margin-left: 89px;
+}
+
+.textb{
+  width: 400px;
+  margin-left: 93px;
+}
+
+.textc{
+  width: 400px;
+  margin-left: 62px;
+}
+
+.textd{
+  width: 400px;
+  margin-left: 105px;
+}
+
+.texte{
+  width: 400px;
+  margin-left: 20px;
+}
+
+.btn{
+  background-color: white;
   color: white;
-  font-size: 20px;
-  text-decoration: none;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  float: right;
+  width: 416px;
+  color: #c82121;
   font-weight: bold;
-  margin-left: 60%;
-  text-align: center;
+  margin-top: 10px;
 }
 
-.footer .sec2 a:hover{
-  color: #9DBFAF;
+.btn:hover{
+  background-color: #8f1d14;
+  color: white;
+  font-weight: bold;
 }
-*/
 
 .footer #col1{
     text-decoration: none;
@@ -208,7 +251,7 @@ ul li {
 #gear{
   width: 40px;
   height: 40px;
-  margin-left: 89.7%;
+  margin-left: 90%;
   position: relative;
   margin-top: -300px;
   margin-bottom: 300px;
@@ -281,4 +324,18 @@ ul li {
 #reset{
   color: white;
   margin-left: 10px;
+}
+
+#heading{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+#req{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 15px;
 }

@@ -3,8 +3,105 @@
   <head>
     <meta charset="utf-8">
     <title>Register</title>
+    <link rel="stylesheet" href="C:/Users/GIAN/Dropbox/Personal Projects/Medicine/css/account/register.css">
+    <link rel="icon" href="C:/Users/GIAN/Dropbox/Personal Projects/Medicine/images/favicon.ico">
   </head>
   <body>
+    <a href="C:/Users/GIAN/Dropbox/Personal Projects/Medicine/html/index.html"><img id = "cross" src="/home/antonis/Dropbox/Personal Projects/Medicine/images/cross.jpg" alt="cross"></a>
+    <div class="top-header">
+      <h1 id="parenthead">Medicine Store</h1>
+      <h3 id="subtitle">Be healthy!</h3>
+    </div>
 
+    <a href="C:/Users/GIAN/Dropbox/Personal Projects/Medicine/html/settings/profile.html"><img id = "profile" src="/home/antonis/Dropbox/Personal Projects/Medicine/images/user.png" alt="user"></a>
+    <a href="C:/Users/GIAN/Dropbox/Personal Projects/Medicine/html/settings/settings.html"><img id = "gear" src="/home/antonis/Dropbox/Personal Projects/Medicine/images/configuration.png" alt="gear"></a>
+    <a href="C:/Users/GIAN/Dropbox/Personal Projects/Medicine/html/settings/shopping-cart.html"><img id = "cart" src="/home/antonis/Dropbox/Personal Projects/Medicine/images/shopping-cart.png" alt="gear"></a>
+    <div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
+    <br>
+    <div class="header">
+      <ul id="navbarmenu">
+        <li class="list1">Wellness</li>
+        <li class="list1">Health & Pharmacy</li>
+        <li class="list1">Beauty & Skincare</li>
+        <li class="list1">Opticians</li>
+        <li class="list1">Sun & Holidays</li>
+      </ul>
+    </div>
+
+    <div class="register-form">
+      <form class="register">
+        <h2 id="heading">Complete all the fields</h2>
+        <h5 id="req">All fields with <strong>*</strong> must complete</h5>
+        <label>Title:*</label>
+        <select class="sselect" name="title">
+          <option value="mr">Mr</option>
+          <option value="mrs">Mrs</option>
+          <option value="miss">Miss</option>
+          <option value="doctor">Doctor</option>
+          <option value="professor">Professor</option>
+        </select>
+        <br>
+        <label>First Name:*</label>
+        <input class="texta" type="text" name="fname" value="text" placeholder="Your first name..">
+        <br>
+        <label>Last Name:*</label>
+        <input class="textb" type="text" name="lname" value="text" placeholder="Your last name..">
+        <br>
+        <label>Email Address:*</label>
+        <input class="textc" type="email" name="eaddress" value="email" placeholder="Your email address..">
+        <br>
+        <label>Password:*</label>
+        <input class="textd" type="password" name="pass" value="password" placeholder="Your password..">
+        <br>
+        <label>Comfirm Password:*</label>
+        <input class="texte" type="password" name="cpass" value="password" placeholder="Your password again..">
+        <br>
+        <button class="btn" type="submit" value="submit" name="button">Create Account</button>
+      </form>
+    </div>
+    <div class="footer">
+      <table style="width:100%">
+  <caption></caption>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td id="col1"><a href="#">Help & FAQs</a></td>
+    <td id="col2"><a href="https://www.facebook.com/">Facebook</a></td>
+  </tr>
+  <tr>
+    <td id="col1"><a href="#">Delivery Information</a></td>
+    <td id="col2"><a href="https://twitter.com/?lang=en">Twitter</a></td>
+  </tr>
+  <tr>
+    <td id="col1"><a href="#">Contact Us</a></td>
+    <td id="col2"><a href="https://www.instagram.com/">Instagram</a></td>
+  </tr>
+  <tr>
+    <td id="col1"><a href="#">Company Information</a></td>
+    <td id="col2"><a href="https://plus.google.com/discover">Google+</a></td>
+  </tr>
+  <tr>
+    <td id="col1"><a href="#">Careers</a></td>
+    <td id="col2"><a href="https://www.youtube.com/">Youtube</a></td>
+  </tr>
+  <tr>
+    <td id="col1"><a href="#">Privacy & Cookies</a></td>
+  </tr>
+  <tr>
+    <td id="col1"><a href="#">Terms & Conitions</a></td>
+  </tr>
+</table>
+<br>
+      <span id="copy">&copy; Antonis Yiannaki 2019</span>
+    </div>
   </body>
 </html>
